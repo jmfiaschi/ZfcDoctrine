@@ -1,0 +1,25 @@
+{
+	"name" : "jmfiaschi/zfc-doctrine",
+	"description" : "new fonctionnality with doctrine",
+	"keywords" : [
+		"zfc",
+		"db",
+		"doctrine"
+	],
+	"authors" : [{
+			"name" : "Jean-Marc Fiaschi",
+			"email" : "jm.fiaschi@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.3",
+		"zf-commons/zfc-base" : "0.*",
+		"jmfiaschi/zfc-db" : "0.*"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"ZfcDoctrine" : "src/"
+		}
+	},
+	"minimum-stability" : "dev"
+}
