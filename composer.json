@@ -14,7 +14,7 @@
 	"require" : {
 		"php" : ">=5.3.3",
 		"zf-commons/zfc-base" : "0.*",
-		"jmfiaschi/zfc-db" : "0.*"
+		"jmfiaschi/zfc-db" : "dev-master"
 	},
 	"autoload" : {
 		"psr-0" : {
